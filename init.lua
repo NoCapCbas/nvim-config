@@ -35,3 +35,10 @@ require "nvchad.autocmds"
 vim.schedule(function()
   require "mappings"
 end)
+
+-- enable line numbers
+vim.opt.number = true
+-- enable relative line numbers
+vim.opt.relativenumber = true
+
+
