@@ -14,7 +14,7 @@
     },
     {
       "name": "SQL Server",
-      "url": "sqlserver://user:password@localhost:1433/dbname"
+      "url": "sqlserver://user:password@localhost:1433/dbname?TrustServerCertificate=true"
     },
     {
       "name": "Remote PostgreSQL",
