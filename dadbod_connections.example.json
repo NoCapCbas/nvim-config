@@ -1,0 +1,20 @@
+{
+  "connections": [
+    {
+      "name": "Local PostgreSQL",
+      "url": "postgresql://user:password@localhost:5432/dbname"
+    },
+    {
+      "name": "Local MySQL",
+      "url": "mysql://user:password@localhost:3306/dbname"
+    },
+    {
+      "name": "SQLite File",
+      "url": "sqlite:///path/to/database.db"
+    },
+    {
+      "name": "Remote PostgreSQL",
+      "url": "postgresql://user:password@remote-host.com:5432/dbname"
+    }
+  ]
+}
